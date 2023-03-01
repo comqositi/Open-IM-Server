@@ -4,8 +4,8 @@ etcd:
   secret:  # etcd 配置密钥
 
 mysql:
-  dbMysqlUserName: ruihong #mysql用户名
-  dbMysqlPassword: RuiHong@008 # mysql密码
+  dbMysqlUserName:  #mysql用户名
+  dbMysqlPassword:  # mysql密码
 
 mongo:
   dbUserName:  #mongo用户名
@@ -13,7 +13,7 @@ mongo:
 
 redis:
   dbUserName:
-  dbPassWord: 123456 #redis密码
+  dbPassWord:  #redis密码
 
 kafka:
   SASLUserName:
@@ -21,11 +21,11 @@ kafka:
 
 credential:
   minio:
-    endpoint: http://storage-online.idong.ren:10005 #发图片视频文件需要填写
-    accessKeyID: minioadmin  # ruihong/ruihong123. FH3QnhQPVqs7aINy
-    secretAccessKey: minioadmin # 6V03QqET95cSPjt90MNa2N0pmVYtgumw
+    endpoint:  #发图片视频文件需要填写
+    accessKeyID:   # ruihong/ruihong123. FH3QnhQPVqs7aINy
+    secretAccessKey:  # 6V03QqET95cSPjt90MNa2N0pmVYtgumw
 
-secret: tuoyun #建议修改
+secret:  #建议修改
 
 tokenpolicy:
   accessSecret: "open_im_server" #token生成相关 建议修改
