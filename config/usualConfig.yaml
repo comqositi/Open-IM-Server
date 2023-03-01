@@ -22,8 +22,8 @@ kafka:
 credential:
   minio:
     endpoint: http://storage-online.idong.ren:10005 #发图片视频文件需要填写
-    accessKeyID: FH3QnhQPVqs7aINy  # ruihong/ruihong123.
-    secretAccessKey: 6V03QqET95cSPjt90MNa2N0pmVYtgumw
+    accessKeyID: minioadmin  # ruihong/ruihong123. FH3QnhQPVqs7aINy
+    secretAccessKey: minioadmin # 6V03QqET95cSPjt90MNa2N0pmVYtgumw
 
 secret: tuoyun #建议修改
 
